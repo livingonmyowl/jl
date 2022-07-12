@@ -59,7 +59,7 @@ public class FileCopy {
 //                System.out.println("Скопировано: " + currentWriteBytes +
 //                        " байт из " + inputFileSize +
 //                        " (" + currentProgress + "%)");
-                Thread.sleep(100);
+                Thread.sleep(100);                                  //Искусственная задержка для тестирования на маленьких файлах
 
             }
 
